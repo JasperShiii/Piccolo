@@ -1,0 +1,417 @@
+parser_header.o: E:/Piccolo-0.0.9/build/parser_header.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/base/hash.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstddef \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals_core.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sal.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\concurrencysal.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vadefs.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xkeycheck.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stddef.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtr1common \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\exception \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_new_debug.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_new.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\crtdefs.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\use_ansi.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdint \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdint.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdlib \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\math.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdlib.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\initializer_list \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\malloc.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_exception.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\eh.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_iter_core.hpp \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cfloat \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\float.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\climits \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cwchar \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdio \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdio.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\wchar.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\errno.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_string.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\sys/stat.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\sys/types.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\intrin0.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\intrin0.inl.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\isa_availability.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\new \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xatomic.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstring \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\string.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/base/macro.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/log/log_system.h \
+  spdlog/spdlog.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iosfwd \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/global/global_context.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\string \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cctype \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\ctype.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\chrono \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ctime \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\time.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ratio \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtimec.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\thread \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\process.h \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_startup.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_startup.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xthreads.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/color/color.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/meta/reflection/reflection.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/meta/json.h json11.hpp \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\unordered_map \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xhash \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xbit_ops.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\unordered_set \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/vector3.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/math.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/random.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\random \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\share.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cerrno \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\atomic \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\locale.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/quaternion.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cassert \
+  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\assert.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/log/log_system.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/axis_aligned.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/math.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/math_headers.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/axis_aligned.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/math_marcos.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/matrix3.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/matrix4.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/vector4.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/transform.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/vector2.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/math_marcos.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/matrix3.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/matrix4.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/quaternion.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/random.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/transform.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/vector2.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/vector3.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/math/vector4.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/meta/json.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/meta/meta_example.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/meta/reflection/reflection.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/meta/reflection/reflection_register.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/core/meta/serializer/serializer.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/engine.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/animation/animation_loader.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/animation_clip.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/animation_skeleton_node_map.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/skeleton_data.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/skeleton_mask.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/animation/animation_system.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/blend_state.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/animation/node.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/animation/skeleton.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/animation.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/animation/node.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/animation/utilities.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/character/character.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/framework/component/camera/camera_component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/camera.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/framework/component/component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/framework/object/object.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/framework/object/object_id_allocator.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/common/object.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/controller/character_controller.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/rigid_body.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/basic_shape.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/animation/animation_component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/animation/skeleton.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/camera/camera_component.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/component.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/mesh/mesh_component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/mesh.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_object.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/mesh/raw_mesh.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/motor/motor_component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/motor.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/controller/character_controller.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/particle/particle_component.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/particle/particle_desc.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/particle/emitter_id_allocator.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/components/emitter.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/rigidbody/rigidbody_component.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/component/transform/transform_component.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/level/level.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/level/level_debugger.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/framework/level/level.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/object/object.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/object/object_id_allocator.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/framework/world/world_manager.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/common/world.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/global/global_context.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/input/input_system.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/particle/emitter_id_allocator.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/particle/particle_common.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/particle/particle_desc.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/particle/particle_manager.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/global/global_particle.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/physics/jolt/utils.h \
+  core/base/macro.h core/math/matrix4.h core/math/quaternion.h \
+  core/math/vector3.h Jolt/Jolt.h \
+  Jolt/Physics/Collision/BroadPhase/BroadPhaseLayer.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/physics/physics_config.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/physics/physics_manager.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/physics/physics_scene.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/physics/physics_config.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_buffer.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/interface/rhi.h \
+  GLFW/glfw3.h vk_mem_alloc.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/interface/rhi_struct.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_type.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/base/hash.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\optional \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_primitive.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/math/math_headers.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_font.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/config_manager/config_manager.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_system.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_entity.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_guid_allocator.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_swap_context.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_camera.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mutex \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/global/global_rendering.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/color/color.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/resource/res_type/data/camera_config.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\deque \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\queue \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_context.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_group.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_manager.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/debugdraw/debug_draw_pipeline.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_resource.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_resource_base.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_scene.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/light.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_common.h \
+  vulkan/vulkan.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/interface/rhi.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/interface/rhi_struct.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/interface/vulkan/vulkan_rhi.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/interface/vulkan/vulkan_rhi_resource.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/interface/vulkan/vulkan_rhi_resource.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/interface/vulkan/vulkan_util.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/light.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/color_grading_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_pass_base.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/combine_ui_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/directional_light_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/fxaa_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/main_camera_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/color_grading_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/combine_ui_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/fxaa_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/tone_mapping_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/ui_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/passes/particle_pass.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/particle/particle_common.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/particle/particle_manager.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/particle_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/pick_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/point_light_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/tone_mapping_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/passes/ui_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_camera.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_common.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_debug_config.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_entity.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_guid_allocator.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_helper.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_mesh.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_object.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_pass.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_pass_base.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_pipeline.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/function/render/render_pipeline_base.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_pipeline_base.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_resource.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_resource_base.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_scene.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_swap_context.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_system.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/render_type.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/render/window_system.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/function/ui/window_ui.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/platform/file_service/file_service.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/platform/path/path.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/asset_manager/asset_manager.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/base/macro.h \
+  E:/Piccolo-0.0.9/engine/source\runtime/core/meta/serializer/serializer.h \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sstream \
+  E:/Piccolo-0.0.9/engine/source\_generated/serializer/all_serializer.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\motor.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\motor.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\transform.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\transform.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\quaternion.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\quaternion.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\vector3.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\vector3.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\particle_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\particle\particle_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\color.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\color\color.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\rigidbody_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\rigidbody\rigidbody_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\axis_aligned.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\axis_aligned.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\vector4.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\vector4.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\vector2.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\vector2.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\matrix4.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\math\matrix4.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\meta_example.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\core\meta\meta_example.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\animation_clip.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\animation_clip.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\animation_skeleton_node_map.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\animation_skeleton_node_map.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\global_rendering.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\global\global_rendering.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\skeleton_data.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\skeleton_data.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\skeleton_mask.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\skeleton_mask.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\blend_state.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\blend_state.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\mesh_data.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\mesh_data.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\animation.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\animation.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\camera_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\camera\camera_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\camera.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\camera.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\object.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\common\object.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\basic_shape.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\basic_shape.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\rigid_body.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\rigid_body.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\animation_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\animation\animation_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\mesh.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\mesh.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\render_object.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\render\render_object.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\mesh_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\mesh\mesh_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\transform_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\transform\transform_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\motor_component.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\function\framework\component\motor\motor_component.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\emitter.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\components\emitter.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\world.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\common\world.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\global_particle.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\global\global_particle.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\camera_config.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\camera_config.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\level.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\common\level.h \
+  E:/Piccolo-0.0.9/engine/source\_generated\serializer\material.serializer.gen.h \
+  E:/Piccolo-0.0.9/engine/source\runtime\resource\res_type\data\material.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/config_manager/config_manager.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/common/level.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/common/object.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/common/world.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/animation.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/camera.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/emitter.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/mesh.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/motor.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/components/rigid_body.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/animation_clip.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/animation_skeleton_node_map.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/basic_shape.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/blend_state.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/camera_config.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/material.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/mesh_data.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/skeleton_data.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/data/skeleton_mask.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/global/global_particle.h \
+  E:/Piccolo-0.0.9/engine/source/runtime/resource/res_type/global/global_rendering.h,“E:/Piccolo-0.0.9/engine/source/editor/include/axis.h \
+  E:/Piccolo-0.0.9/engine/source/editor/include/editor.h \
+  E:/Piccolo-0.0.9/engine/source/editor/include/editor_file_service.h \
+  E:/Piccolo-0.0.9/engine/source/editor/include/editor_global_context.h \
+  E:/Piccolo-0.0.9/engine/source/editor/include/editor_input_manager.h \
+  E:/Piccolo-0.0.9/engine/source/editor/include/editor_scene_manager.h \
+  E:/Piccolo-0.0.9/engine/source\editor/include/axis.h

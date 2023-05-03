@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B14E7108-2440-3030-A90A-298B5EB5A415}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PiccoloRuntime</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PiccoloRuntime.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PiccoloRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PiccoloRuntime.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PiccoloRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PiccoloRuntime.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PiccoloRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PiccoloRuntime.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PiccoloRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;_DEBUG;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\tinyobjloader;E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Piccolo-0.0.9\engine\source\runtime\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\engine\source\runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\base\hash.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\base\macro.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\color\color.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\log\log_system.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\axis_aligned.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\math.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\math_headers.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\math_marcos.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\matrix3.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\matrix4.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\quaternion.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\random.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\transform.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector2.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector3.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector4.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\json.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\meta_example.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection_register.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\serializer\serializer.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\engine.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_loader.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_system.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\node.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\skeleton.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\utilities.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\character\character.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\controller\character_controller.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\animation\animation_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\camera\camera_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\mesh_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\raw_mesh.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\motor\motor_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\particle\particle_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\transform\transform_component.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level_debugger.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object_id_allocator.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\world\world_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\global\global_context.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\input\input_system.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\emitter_id_allocator.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_common.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_desc.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\jolt\utils.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_config.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_scene.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_buffer.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_context.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_font.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_group.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_pipeline.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_primitive.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\rhi.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\rhi_struct.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi_resource.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_util.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\light.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\color_grading_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\combine_ui_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\directional_light_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\fxaa_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\main_camera_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\particle_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\pick_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\point_light_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\tone_mapping_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\ui_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_camera.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_common.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_debug_config.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_entity.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_guid_allocator.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_helper.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_mesh.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_object.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass_base.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline_base.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource_base.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_scene.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_swap_context.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_system.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_type.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\window_system.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\function\ui\window_ui.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\platform\file_service\file_service.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\platform\path\path.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\asset_manager\asset_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\config_manager\config_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\level.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\object.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\world.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\animation.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\camera.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\emitter.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\mesh.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\motor.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\rigid_body.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\animation_clip.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\animation_skeleton_node_map.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\basic_shape.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\blend_state.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\camera_config.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\material.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\mesh_data.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\skeleton_data.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\skeleton_mask.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\global\global_particle.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\global\global_rendering.h" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\log\log_system.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\axis_aligned.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\math.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\matrix3.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\matrix4.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\quaternion.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector2.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector3.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\math\vector4.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\meta_example.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection_register.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\core\meta\serializer\serializer.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\engine.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_loader.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_system.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\node.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\skeleton.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\animation\utilities.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\character\character.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\controller\character_controller.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\animation\animation_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\camera\camera_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\mesh_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\motor\motor_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\particle\particle_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\component\transform\transform_component.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level_debugger.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object_id_allocator.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\framework\world\world_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\global\global_context.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\input\input_system.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\emitter_id_allocator.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\jolt\utils.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_scene.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_buffer.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_context.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_font.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_group.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_pipeline.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_primitive.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_util.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_vma.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\color_grading_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\combine_ui_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\directional_light_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\fxaa_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\main_camera_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\particle_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\pick_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\point_light_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\tone_mapping_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\passes\ui_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_camera.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_helper.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass_base.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline_base.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource_base.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_scene.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_swap_context.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\render_system.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\render\window_system.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\function\ui\window_ui.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\platform\file_service\file_service.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\platform\path\path.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\asset_manager\asset_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\config_manager\config_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\camera.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\motor.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\rigid_body.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\ZERO_CHECK.vcxproj">
+      <Project>{702C5BF2-2D59-3255-A2DF-E7F2929057B5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\JoltPhysics\Build\Jolt.vcxproj">
+      <Project>{52A2B02D-06E7-3DBD-853D-5DFFC455EBC5}</Project>
+      <Name>Jolt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\PiccoloPreCompile.vcxproj">
+      <Project>{85E66253-E810-3790-8F60-BFFD095D3453}</Project>
+      <Name>PiccoloPreCompile</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\shader\PiccoloShaderCompile.vcxproj">
+      <Project>{74A85AAC-08AC-31B9-8973-83EEB89E0A8B}</Project>
+      <Name>PiccoloShaderCompile</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{9C45F105-736A-37FF-AFCA-590E1BF8C7C8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\imgui.vcxproj">
+      <Project>{C72DD389-F1CE-3C67-8DD8-DC7816F053A9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\source\runtime\json11.vcxproj">
+      <Project>{B39CF963-AFDA-36F7-9879-A32936158607}</Project>
+      <Name>json11</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\spdlog\spdlog.vcxproj">
+      <Project>{40D66FAD-72F7-3828-AABB-F8E513B0B395}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\stb.vcxproj">
+      <Project>{1D6533AD-383C-30B4-8FB2-9F47C7DF8CD2}</Project>
+      <Name>stb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\tinyobjloader\tinyobjloader.vcxproj">
+      <Project>{65D6B3C0-BAD9-3491-8137-C961456B6EB6}</Project>
+      <Name>tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

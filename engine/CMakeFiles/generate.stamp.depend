@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/Piccolo-0.0.9/build/CMakeFiles/cmake.verify_globs
+E:/Piccolo-0.0.9/engine/CMakeLists.txt
+E:/Piccolo-0.0.9/engine/source/precompile/precompile.cmake
+E:/Piccolo-0.0.9/engine/source/precompile/precompile.json.in

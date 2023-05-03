@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+E:/Piccolo-0.0.9/build/CMakeFiles/cmake.verify_globs
+E:/Piccolo-0.0.9/engine/3rdparty/tinyobjloader/CMakeLists.txt
+E:/Piccolo-0.0.9/engine/3rdparty/tinyobjloader/cmake_uninstall.cmake.in
+E:/Piccolo-0.0.9/engine/3rdparty/tinyobjloader/tinyobjloader-config.cmake.in
+E:/Piccolo-0.0.9/engine/3rdparty/tinyobjloader/tinyobjloader.pc.in

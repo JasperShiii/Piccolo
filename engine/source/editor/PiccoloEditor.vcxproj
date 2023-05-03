@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4905E73-C69A-35E0-98CA-658D4AAD94BF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PiccoloEditor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PiccoloEditor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PiccoloEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PiccoloEditor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PiccoloEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PiccoloEditor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PiccoloEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PiccoloEditor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PiccoloEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;_DEBUG;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine/source/editor/resource E:/Piccolo-0.0.9/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/build/engine/source/editor/Debug/ E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/deployment/PiccoloEditor.ini E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/development/PiccoloEditor.ini E:/Piccolo-0.0.9/build/engine/source/editor/Debug/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine//asset E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\Debug\PiccoloRuntime.lib;..\..\3rdparty\spdlog\Debug\spdlogd.lib;..\..\3rdparty\tinyobjloader\Debug\tinyobjloader.lib;..\..\3rdparty\Debug\imgui.lib;..\..\3rdparty\glfw\src\Debug\glfw3.lib;..\..\3rdparty\JoltPhysics\Build\Debug\Jolt.lib;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\Debug\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Piccolo-0.0.9/build/engine/source/editor/Debug/PiccoloEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Piccolo-0.0.9/build/engine/source/editor/Debug/PiccoloEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;JPH_PROFILE_ENABLED;JPH_DEBUG_RENDERER;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine/source/editor/resource E:/Piccolo-0.0.9/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/build/engine/source/editor/Release/ E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/deployment/PiccoloEditor.ini E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/development/PiccoloEditor.ini E:/Piccolo-0.0.9/build/engine/source/editor/Release/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine//asset E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\Release\PiccoloRuntime.lib;..\..\3rdparty\spdlog\Release\spdlog.lib;..\..\3rdparty\tinyobjloader\Release\tinyobjloader.lib;..\..\3rdparty\Release\imgui.lib;..\..\3rdparty\glfw\src\Release\glfw3.lib;..\..\3rdparty\JoltPhysics\Build\Release\Jolt.lib;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\Release\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Piccolo-0.0.9/build/engine/source/editor/Release/PiccoloEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Piccolo-0.0.9/build/engine/source/editor/Release/PiccoloEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine/source/editor/resource E:/Piccolo-0.0.9/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/build/engine/source/editor/MinSizeRel/ E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/deployment/PiccoloEditor.ini E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/development/PiccoloEditor.ini E:/Piccolo-0.0.9/build/engine/source/editor/MinSizeRel/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine//asset E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\MinSizeRel\PiccoloRuntime.lib;..\..\3rdparty\spdlog\MinSizeRel\spdlog.lib;..\..\3rdparty\tinyobjloader\MinSizeRel\tinyobjloader.lib;..\..\3rdparty\MinSizeRel\imgui.lib;..\..\3rdparty\glfw\src\MinSizeRel\glfw3.lib;..\..\3rdparty\JoltPhysics\Build\MinSizeRel\Jolt.lib;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\MinSizeRel\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Piccolo-0.0.9/build/engine/source/editor/MinSizeRel/PiccoloEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Piccolo-0.0.9/build/engine/source/editor/MinSizeRel/PiccoloEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PICCOLO_VK_LAYER_PATH=E:/Piccolo-0.0.9/engine/3rdparty/VulkanSDK/bin/Win32;PICCOLO_ROOT_DIR=E:/Piccolo-0.0.9/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Piccolo-0.0.9\engine\3rdparty\stb;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\include;E:\Piccolo-0.0.9\engine\shader\generated\cpp;E:\Piccolo-0.0.9\engine\source;E:\Piccolo-0.0.9\engine\3rdparty\json11;E:\Piccolo-0.0.9\engine\3rdparty\vulkanmemoryallocator\include;E:\Piccolo-0.0.9\engine\source\runtime;E:\Piccolo-0.0.9\engine\source\runtime\function\render\include;E:\Piccolo-0.0.9\engine\3rdparty\spdlog\include;E:\Piccolo-0.0.9\engine\3rdparty\glfw\include;E:\Piccolo-0.0.9\engine\3rdparty\imgui;E:\Piccolo-0.0.9\engine\3rdparty\JoltPhysics\Build\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine/source/editor/resource E:/Piccolo-0.0.9/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/build/engine/source/editor/RelWithDebInfo/ E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/deployment/PiccoloEditor.ini E:/Piccolo-0.0.9/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/Piccolo-0.0.9/engine/configs/development/PiccoloEditor.ini E:/Piccolo-0.0.9/build/engine/source/editor/RelWithDebInfo/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/Piccolo-0.0.9/engine//asset E:/Piccolo-0.0.9/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\RelWithDebInfo\PiccoloRuntime.lib;..\..\3rdparty\spdlog\RelWithDebInfo\spdlog.lib;..\..\3rdparty\tinyobjloader\RelWithDebInfo\tinyobjloader.lib;..\..\3rdparty\RelWithDebInfo\imgui.lib;..\..\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;..\..\3rdparty\JoltPhysics\Build\RelWithDebInfo\Jolt.lib;E:\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\RelWithDebInfo\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Piccolo-0.0.9/build/engine/source/editor/RelWithDebInfo/PiccoloEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Piccolo-0.0.9/build/engine/source/editor/RelWithDebInfo/PiccoloEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Piccolo-0.0.9\engine\source\editor\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Piccolo-0.0.9/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Piccolo-0.0.9 -BE:/Piccolo-0.0.9/build --check-stamp-file E:/Piccolo-0.0.9/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Piccolo-0.0.9\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\axis.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor_file_service.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor_global_context.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor_input_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor_scene_manager.h" />
+    <ClInclude Include="E:\Piccolo-0.0.9\engine\source\editor\include\editor_ui.h" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\axis.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor_file_service.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor_global_context.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor_input_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor_scene_manager.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\editor_ui.cpp" />
+    <ClCompile Include="E:\Piccolo-0.0.9\engine\source\editor\source\main.cpp" />
+    <ResourceCompile Include="E:\Piccolo-0.0.9\engine\source\editor\resource\PiccoloEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\ZERO_CHECK.vcxproj">
+      <Project>{702C5BF2-2D59-3255-A2DF-E7F2929057B5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\JoltPhysics\Build\Jolt.vcxproj">
+      <Project>{52A2B02D-06E7-3DBD-853D-5DFFC455EBC5}</Project>
+      <Name>Jolt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\source\runtime\PiccoloRuntime.vcxproj">
+      <Project>{B14E7108-2440-3030-A90A-298B5EB5A415}</Project>
+      <Name>PiccoloRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{9C45F105-736A-37FF-AFCA-590E1BF8C7C8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\imgui.vcxproj">
+      <Project>{C72DD389-F1CE-3C67-8DD8-DC7816F053A9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\source\runtime\json11.vcxproj">
+      <Project>{B39CF963-AFDA-36F7-9879-A32936158607}</Project>
+      <Name>json11</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\spdlog\spdlog.vcxproj">
+      <Project>{40D66FAD-72F7-3828-AABB-F8E513B0B395}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\stb.vcxproj">
+      <Project>{1D6533AD-383C-30B4-8FB2-9F47C7DF8CD2}</Project>
+      <Name>stb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Piccolo-0.0.9\build\engine\3rdparty\tinyobjloader\tinyobjloader.vcxproj">
+      <Project>{65D6B3C0-BAD9-3491-8137-C961456B6EB6}</Project>
+      <Name>tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

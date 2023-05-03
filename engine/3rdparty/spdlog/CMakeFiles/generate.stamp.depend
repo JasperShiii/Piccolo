@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+E:/Piccolo-0.0.9/build/CMakeFiles/cmake.verify_globs
+E:/Piccolo-0.0.9/engine/3rdparty/spdlog/CMakeLists.txt
+E:/Piccolo-0.0.9/engine/3rdparty/spdlog/cmake/ide.cmake
+E:/Piccolo-0.0.9/engine/3rdparty/spdlog/cmake/utils.cmake
